@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  overflow-y: hidden;
+  background-color: #909196 !important;
+}
+.App-header {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section{
+  height:80vh;
+}
+body, main{
+  background: gray
+}
+.list{
+  background: #bf8565;
+}
+ul{
+  list-style: none
+}
+ol{
+  list-style-type: upper-roman;
+}
+.opens1,.opens2,.opens3,.opens4{
+  display: none
+}
+.navbar-brand img{
+  width: 50px;
+}
+a{
+  color:black !important;
+}
+.css1 , .css2, .css3, .css4,.css5,.css6,.css11 , .css12, .css13, .css14,.css15,.css16{
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(45deg, #e66d17, #419a2f);;
+  position: absolute;
+  border: 3px solid #fff;
+  cursor: pointer;
+  border-radius: 100px / 50px;
+  text-align: center;
+}
+.css7{
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(45deg, #e66d17, #419a2f);;
+  position: absolute;
+  border: 3px solid #fff;
+  cursor: pointer;
+  border-radius: 100px / 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  top:0;
+  bottom: 0;
+  right: 0;
+}
+.css8{
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(45deg, #e66d17, #419a2f);;
+  position: absolute;
+  border: 3px solid #fff;
+  cursor: pointer;
+  border-radius: 100px / 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  top:90px;
+  bottom: 0;
+  right: 0;
+}
+.css9{
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(45deg, #e66d17, #419a2f);
+  border: 3px solid #fff;
+  cursor: pointer;
+  border-radius: 100px / 50px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+}
+.DontNow{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .css1 , .css2, .css3, .css4,.css5,.css6,.css11 , .css12, .css13, .css14,.css15,.css16,.css8,.css7{
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(45deg, #e66d17, #419a2f);
+    border: 3px solid #fff;
+    cursor: pointer;
+    border-radius: 100px / 50px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    position: relative;
+  }
+  body{
+    overflow-y: scroll;
+  }
+  .list{
+    width: 300px;
+  }
+  .col-sm-9{
+    width: 100% !important;
+    flex: none !important;
+  }
+}
